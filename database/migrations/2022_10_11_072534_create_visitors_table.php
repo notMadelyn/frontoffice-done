@@ -22,7 +22,7 @@ class CreateVisitorsTable extends Migration
             $table->foreignId('meet_id')->constrained();
             $table->foreignId('utility_id')->constrained();
             $table->string('desc')->nullable();
-            $table->date('date');
+            $table->timestamp('date');
             $table->timestamps();
         });
     }
