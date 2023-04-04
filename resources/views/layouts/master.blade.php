@@ -39,7 +39,7 @@
                         <li class="sidebar-title" style="color: white">Menu</li>
 
                         <li class="sidebar-item {{ request()->is('/') ? 'sidebar-item active' : '' }} ">
-                            <a href="{{ url('/') }}" class='sidebar-link'>
+                            <a href="{{ url('/home') }}" class='sidebar-link'>
                                 <i class="bi bi-grid-fill"></i>
                                 <span style="color: white">Dashboard</span>
                             </a>
